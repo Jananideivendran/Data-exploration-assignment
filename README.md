@@ -1,4 +1,4 @@
-# Data-exploration-assignment
+
 # 📊 Product Data Exploration Using Excel
 
 ## 📌 Project Overview
