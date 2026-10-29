@@ -88,19 +88,6 @@ Use text functions to extract information from the `Product ID` column. Create t
 
 ---
 
-## 📊 Evaluation & Skill Mapping Summary
-
-| Assignment Section | Core Skill | Sub-Skill | Proficiency | Marks Allocated |
-| :--- | :--- | :--- | :--- | :--- |
-| **Basic Calculations** | Data Analysis | SUM, COUNT, AVERAGE | Beginner | 2 Marks |
-| **Min & Max Analysis** | Statistical Functions | MIN, MAX | Beginner | 1 Mark |
-| **Logical Functions** | Business Logic | IF Conditions | Beginner | 3 Marks |
-| **Conditional Aggregation** | Data Filtering | SUMIF, COUNTIF | Beginner | 3 Marks |
-| **Text Functions** | Data Transformation | LEFT, RIGHT, MID | Beginner | 1 Mark |
-| **Total** | **Excel Proficiency** | **Formula Application** | **Beginner** | **10 Marks** |
-
----
-
 ## 📦 Deliverables Checklist
 Submit a project folder containing:
 1. **Excel File (.xlsx):**
