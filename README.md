@@ -52,31 +52,92 @@ The dataset contains information about various products and their attributes.
 - Excel Formulas and Functions
 
 ---
+# Excel Assignment 1: Data Exploration & Analysis
 
+## 📌 Project Overview
+As a Data Analyst, this project requires performing basic data exploration and analysis on a **Product Dataset** in Microsoft Excel. The dataset includes information about different products, specifically their Product IDs, Product Name, Brand Name, Quantity, Categories, and Prices. 
+
+The goal of this assignment is to build foundational skills in data summarization, statistical evaluation, logical functions, conditional aggregation, and text manipulation.
+
+---
+
+## 📋 Dataset Attributes
+* **Product ID**
+* **Product Name**
+* **Brand Name**
+* **Quantity**
+* **Category**
+* **Price**
+
+---
+
+## 🛠️ Assignment Tasks & Implemented Formulas
+
+### 1. Basic Data Exploration (Sum, Count, and Average)
+Perform the following calculations using Excel built-in functions:
+* **Total Price:** Calculate the total price of all products in the dataset.
+  * *Formula:* `=SUM(Price_Range)`
+* **Product Count:** Determine how many products exist in the dataset.
+  * *Formula:* `=COUNTA(Product_Name_Range)`
+* **Average Price:** Calculate the average price of the products.
+  * *Formula:* `=AVERAGE(Price_Range)`
+
+### 2. Minimum and Maximum Values
+Using Excel functions:
+* **Minimum Price:** Identify the minimum price among all products.
+  * *Formula:* `=MIN(Price_Range)`
+* **Maximum Price:** Identify the maximum price among all products.
+  * *Formula:* `=MAX(Price_Range)`
+
+### 3. Logical Function – `IF`
+* Create a new column named `Price Range`.
+* Use the `IF` function to categorize products based on their price:
+  * If Price $\ge$ $500$ $\rightarrow$ classify as **High Price**
+  * If Price $<$ $500$ $\rightarrow$ classify as **Standard Price**
+* *Formula Example:* `=IF(Price_Cell >= 500, "High Price", "Standard Price")`
+
+### 4. Conditional Functions – `SUMIF` and `COUNTIF`
+Perform the following conditional calculations:
+* **Electronics Category Total:** Use the `SUMIF` function to calculate the total price of products in the Electronics category.
+  * *Formula:* `=SUMIF(Category_Range, "Electronics", Price_Range)`
+* **Products Under $100 Count:** Use the `COUNTIF` function to determine the number of products with a price less than $100.
+  * *Formula:* `=COUNTIF(Price_Range, "<100")`
+
+### 5. Text Formatting – `LEFT`, `RIGHT`, `MID`
+Use text functions to extract information from the `Product ID` column. Create the following new columns:
+* **Day:** Create a new column named `Day` with the first 2 characters of each `Product ID` using the `LEFT` function.
+  * *Formula:* `=LEFT(ProductID_Cell, 2)`
+* **Country Code:** Create a new column named `Country Code` by extracting the last 2 characters from the `Product ID` column using the `RIGHT` function.
+  * *Formula:* `=RIGHT(ProductID_Cell, 2)`
+* **Month:** Create a new column named `Month` by extracting the 4th to 6th characters from the `Product ID` column using the `MID` function.
+  * *Formula:* `=MID(ProductID_Cell, 4, 3)`
+
+---
+
+## 📊 Evaluation & Skill Mapping Summary
+
+| Assignment Section | Core Skill | Sub-Skill | Proficiency | Marks Allocated |
+| :--- | :--- | :--- | :--- | :--- |
+| **Basic Calculations** | Data Analysis | SUM, COUNT, AVERAGE | Beginner | 2 Marks |
+| **Min & Max Analysis** | Statistical Functions | MIN, MAX | Beginner | 1 Mark |
+| **Logical Functions** | Business Logic | IF Conditions | Beginner | 3 Marks |
+| **Conditional Aggregation** | Data Filtering | SUMIF, COUNTIF | Beginner | 3 Marks |
+| **Text Functions** | Data Transformation | LEFT, RIGHT, MID | Beginner | 1 Mark |
+| **Total** | **Excel Proficiency** | **Formula Application** | **Beginner** | **10 Marks** |
+
+---
+
+## 📦 Deliverables Checklist
+Submit a project folder containing:
+1. **Excel File (.xlsx):**
+   * Completed calculations using formulas
+   * Newly created columns (`Price Range`, `Day`, `Country Code`, `Month`)
+   * Correct application of Excel functions and clearly labeled columns/results
+2. **PDF Document:**
+   * Include screenshots of calculated results for each function, newly created columns, and applied formulas in the formula bar.
 ## 📈 Excel Functions and Techniques
 
-The following Excel functions and techniques are used in this assignment.
 
-### 1. Data Summarization
-- `SUM()` – Calculates the total of numerical values.
-- `AVERAGE()` – Calculates the average value.
-- `COUNT()` – Counts cells containing numbers.
-- `COUNTA()` – Counts non-empty cells.
-
-### 2. Logical Functions
-- `IF()` – Evaluates a condition and returns a result based on whether it is TRUE or FALSE.
-
-
-### 3. Conditional Aggregation
-- `SUMIF()` – Calculates a total based on a single condition.
-
-- `COUNTIF()` – Counts cells that meet a condition.
-
-
-### 4. Text Manipulation
-- `LEFT()` – Extracts characters from the beginning of a text string.
-- `RIGHT()` – Extracts characters from the end of a text string.
-- `MID()` – Extracts characters from a specified position.
 
 
 ---
