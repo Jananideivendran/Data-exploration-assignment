@@ -1,21 +1,13 @@
 
 # 📊 Product Data Exploration Using Excel
+---
+# Excel Assignment 1: Data Exploration & Analysis
 
 ## 📌 Project Overview
+As a Data Analyst, this project requires performing basic data exploration and analysis on a **Product Dataset** in Microsoft Excel. The dataset includes information about different products, specifically their Product IDs, Product Name, Brand Name, Quantity, Categories, and Prices. 
 
-This project focuses on exploring and analyzing product data using Microsoft Excel.
-The dataset contains information about different products, including Product IDs,
-Product Names, Brand Names, Quantities, Categories, and Prices.
+The goal of this assignment is to build foundational skills in data summarization, statistical evaluation, logical functions, conditional aggregation, and text manipulation.
 
-The main objective of this assignment is to develop foundational data analysis
-skills using Excel formulas and functions to summarize data, apply logical
-conditions, perform conditional calculations, and extract useful information
-from text fields.
-
-This project demonstrates essential Excel techniques for data exploration
-and preparation for further analysis.
-
----
 
 ## 📂 Dataset Description
 
@@ -50,24 +42,6 @@ The dataset contains information about various products and their attributes.
 
 - **Microsoft Excel**
 - Excel Formulas and Functions
-
----
-# Excel Assignment 1: Data Exploration & Analysis
-
-## 📌 Project Overview
-As a Data Analyst, this project requires performing basic data exploration and analysis on a **Product Dataset** in Microsoft Excel. The dataset includes information about different products, specifically their Product IDs, Product Name, Brand Name, Quantity, Categories, and Prices. 
-
-The goal of this assignment is to build foundational skills in data summarization, statistical evaluation, logical functions, conditional aggregation, and text manipulation.
-
----
-
-## 📋 Dataset Attributes
-* **Product ID**
-* **Product Name**
-* **Brand Name**
-* **Quantity**
-* **Category**
-* **Price**
 
 ---
 
@@ -135,11 +109,6 @@ Submit a project folder containing:
    * Correct application of Excel functions and clearly labeled columns/results
 2. **PDF Document:**
    * Include screenshots of calculated results for each function, newly created columns, and applied formulas in the formula bar.
-## 📈 Excel Functions and Techniques
-
-
-
-
 ---
 
 ## 🔍 Key Analysis Areas
