@@ -65,23 +65,19 @@ The following Excel functions and techniques are used in this assignment.
 
 ### 2. Logical Functions
 - `IF()` – Evaluates a condition and returns a result based on whether it is TRUE or FALSE.
-- `AND()` – Checks whether multiple conditions are TRUE.
-- `OR()` – Checks whether at least one condition is TRUE.
+
 
 ### 3. Conditional Aggregation
 - `SUMIF()` – Calculates a total based on a single condition.
-- `SUMIFS()` – Calculates a total based on multiple conditions.
+
 - `COUNTIF()` – Counts cells that meet a condition.
-- `COUNTIFS()` – Counts cells that meet multiple conditions.
-- `AVERAGEIF()` – Calculates an average based on a condition.
+
 
 ### 4. Text Manipulation
 - `LEFT()` – Extracts characters from the beginning of a text string.
 - `RIGHT()` – Extracts characters from the end of a text string.
 - `MID()` – Extracts characters from a specified position.
-- `LEN()` – Returns the number of characters in a text string.
-- `TRIM()` – Removes unnecessary spaces from text.
-- `CONCAT()` – Combines text from multiple cells.
+
 
 ---
 
@@ -129,4 +125,4 @@ for an entry-level Data Analyst role.
 
 ## 👩‍💻 Author
 
-Aspiring Data Analyst | Excel | SQL | Power BI | Python
+ Janani Aspiring Data Analyst | Excel | SQL | Power BI | Python
